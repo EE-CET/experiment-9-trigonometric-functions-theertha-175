@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Zero Degrees",
+      "setup": "javac src/Trigonometry.java",
+      "run": "java -cp src Trigonometry",
+      "input": "0",
+      "output": "Sine: 0.0\nCosine: 1.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "90 Degrees (Check Sine Only)",
+      "setup": "javac src/Trigonometry.java",
+      "run": "java -cp src Trigonometry",
+      "input": "90",
+      "output": "Sine: 1.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
